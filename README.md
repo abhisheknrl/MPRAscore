@@ -23,3 +23,7 @@ mprascore L363_barcode_map.txt L363_barcode_counts.txt -RNAcols:L363_RNA_1,L363_
 Citation:
 
 Niroula A, Ajore R, Nilsson B. (2019) MPRAscore: robust and non-parametric analysis of massively parallel reporter assays. Submitted.
+
+Contact:
+
+For any queries, contact bjorn.nilsson@med.lu.se
