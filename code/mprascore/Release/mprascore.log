@@ -1,0 +1,54 @@
+﻿Build started 2019-03-04 15:59:21.
+     1>Project "C:\Users\bn\Dropbox\2019-MPRAscore\code\mprascore\mprascore.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\Release\mprascore.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I../ /Zi /nologo /W3 /WX- /O2 /Ob1 /D WINVER=0x0500 /D _VC80_UPGRADE=0x0600 /D _MBCS /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope- /Fo".\Release/" /Fd".\Release/vc100.pdb" /Gd /TP /wd4996 /wd4244 /errorReport:prompt ..\math\variance.cpp ..\system\linereader.cpp ..\types\matrix.cpp ..\types\string.cpp ..\types\stringfun.cpp ..\types\tablefun.cpp ..\types\tableindex.cpp ..\types\vector.cpp ..\system\consoleapp.cpp ..\system\environment.cpp ..\system\filehelpers.cpp ..\system\filesystem.cpp ..\system\stderr.cpp ..\system\stdout.cpp mprascore.cpp ..\math\rand.cpp ..\math\statfun.cpp
+         variance.cpp
+         linereader.cpp
+         matrix.cpp
+         string.cpp
+         stringfun.cpp
+         tablefun.cpp
+     1>..\types\tablefun.cpp(515): warning C4267: '+=' : conversion from 'size_t' to 'int', possible loss of data
+         tableindex.cpp
+         vector.cpp
+         consoleapp.cpp
+         environment.cpp
+         filehelpers.cpp
+         filesystem.cpp
+         stderr.cpp
+         stdout.cpp
+         mprascore.cpp
+         rand.cpp
+         statfun.cpp
+         Generating Code...
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:".\Release/mprascore.exe" /INCREMENTAL:NO /NOLOGO Advapi32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\Release\mprascore.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:".\Release/mprascore.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:".\Release\mprascore.lib" /MACHINE:X64 .\Release/variance.obj
+         .\Release/linereader.obj
+         .\Release/matrix.obj
+         .\Release/string.obj
+         .\Release/stringfun.obj
+         .\Release/tablefun.obj
+         .\Release/tableindex.obj
+         .\Release/vector.obj
+         .\Release/consoleapp.obj
+         .\Release/environment.obj
+         .\Release/filehelpers.obj
+         .\Release/filesystem.obj
+         .\Release/stderr.obj
+         .\Release/stdout.obj
+         .\Release/mprascore.obj
+         .\Release/rand.obj
+         .\Release/statfun.obj
+         mprascore.vcxproj -> C:\Users\bn\Dropbox\2019-MPRAscore\code\mprascore\.\Release\mprascore.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:".\Release/mprascore.exe;#1" /manifest .\Release\mprascore.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file ".\Release\mprascore.unsuccessfulbuild".
+         Touching ".\Release\mprascore.lastbuildstate".
+     1>Done Building Project "C:\Users\bn\Dropbox\2019-MPRAscore\code\mprascore\mprascore.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:27.59

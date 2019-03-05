@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="types">
+      <UniqueIdentifier>{a91bd8f9-e147-4567-9e5f-48b7c8c4ca6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system">
+      <UniqueIdentifier>{e9b1912e-97c1-4f3b-8966-59b9e4894db3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app">
+      <UniqueIdentifier>{f7a90de2-3bc7-496e-af44-df927707360a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="math">
+      <UniqueIdentifier>{6c33ebfd-0afc-4582-926c-2e9360877a4a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\types\matrix.cpp">
+      <Filter>types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\types\string.cpp">
+      <Filter>types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\types\stringfun.cpp">
+      <Filter>types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\types\tablefun.cpp">
+      <Filter>types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\types\tableindex.cpp">
+      <Filter>types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\types\vector.cpp">
+      <Filter>types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\system\consoleapp.cpp">
+      <Filter>system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\system\environment.cpp">
+      <Filter>system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\system\filehelpers.cpp">
+      <Filter>system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\system\filesystem.cpp">
+      <Filter>system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\system\stderr.cpp">
+      <Filter>system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\system\stdout.cpp">
+      <Filter>system</Filter>
+    </ClCompile>
+    <ClCompile Include="mprascore.cpp">
+      <Filter>app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\math\rand.cpp">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\math\statfun.cpp">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\system\linereader.cpp">
+      <Filter>system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\math\variance.cpp">
+      <Filter>math</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\types\matrix.h">
+      <Filter>types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\types\nan.h">
+      <Filter>types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\types\ref.h">
+      <Filter>types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\types\string.h">
+      <Filter>types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\types\stringfun.h">
+      <Filter>types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\types\stringref.h">
+      <Filter>types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\types\tablefun.h">
+      <Filter>types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\types\tableindex.h">
+      <Filter>types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\types\vector.h">
+      <Filter>types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\system\consoleapp.h">
+      <Filter>system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\system\environment.h">
+      <Filter>system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\system\filehelpers.h">
+      <Filter>system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\system\FileSystem.h">
+      <Filter>system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\system\stderr.h">
+      <Filter>system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\system\stdout.h">
+      <Filter>system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\math\rand.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\math\statfun.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\system\linereader.h">
+      <Filter>system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\math\variance.h">
+      <Filter>math</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\types\matrix.inl">
+      <Filter>types</Filter>
+    </None>
+  </ItemGroup>
+</Project>
